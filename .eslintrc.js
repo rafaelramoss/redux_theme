@@ -31,6 +31,7 @@ module.exports = {
     'react/require-default-props': 'off',
     'react/forbid-prop-types': 'off',
     'import/prefer-default-export': 'off',
+    'react/style-prop-object': 'off',
     'prettier/prettier': 'error',
     'no-console': ['error', { allow: ['log', 'warn', 'error'] }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
