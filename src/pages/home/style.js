@@ -5,7 +5,7 @@ export const Container = styled.View`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #fff;
+  background-color: ${(props) => props.theme.PRIMARY_BACKGROUND_COLOR};
 `;
 
 export const ContainerHeader = styled.View`
@@ -22,14 +22,14 @@ export const Texto = styled.Text`
   font-size: 20px;
   font-weight: 600;
   margin-top: 8px;
-  color: #282828;
+  color: ${(props) => props.theme.PRIMARY_TEXT_COLOR};
 `;
 
 export const Button = styled.TouchableOpacity`
-  width: 150px;
+  width: 250px;
   height: 50px;
-  background-color: #999;
-  border-radius: 15px;
+  background-color: ${(props) => props.theme.PRIMARY_BUTTON_COLOR};
+  border-radius: 8px;
   align-items: center;
   justify-content: center;
   margin-top: 30px;
@@ -38,5 +38,5 @@ export const Button = styled.TouchableOpacity`
 export const TextButton = styled.Text`
   font-size: 20px;
   font-weight: bold;
-  color: #fafafa;
+  color: ${(props) => props.theme.PRIMARY_TEXT_BUTTON_COLOR};
 `;
