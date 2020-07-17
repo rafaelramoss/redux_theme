@@ -1,0 +1,12 @@
+{
+  "name": "redux_theme",
+  "displayName": "redux_theme",
+  "expo": {
+    "name": "redux_theme",
+    "slug": "redux_theme",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
