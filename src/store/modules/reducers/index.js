@@ -1,18 +1,9 @@
-import { lightTheme } from '../../../themes';
-import { SWITCH_THEME } from '../actions';
+import { combineReducers } from 'redux';
 
-const initialState = {
-  theme: lightTheme,
-};
+import themeReducer from './themeReducer';
 
-const themeReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case SWITCH_THEME:
-      return { theme: action.theme };
+const rootReducer = combineReducers({
+  themeReducer,
+});
 
-    default:
-      return state;
-  }
-};
-
-export default themeReducer;
+export default rootReducer;
