@@ -1,5 +1,9 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
+import { ThemeProvider } from 'styled-components';
+
+import switchTheme from '../../store/modules/actions';
 import {
   Container,
   ContainerHeader,
