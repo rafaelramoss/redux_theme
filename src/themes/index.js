@@ -4,7 +4,7 @@ const darkTheme = {
   PRIMARY_TEXT_COLOR: '#fff',
   PRIMARY_BUTTON_COLOR: 'orange',
   PRIMARY_TEXT_BUTTON_COLOR: '#fff',
-  STATUS_BAR: 'light-contente',
+  STATUS_BAR: 'light-content',
 };
 
 const lightTheme = {
