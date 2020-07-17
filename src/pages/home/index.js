@@ -20,7 +20,10 @@ export default function Home() {
   const dispatch = useDispatch();
   return (
     <ThemeProvider theme={theme}>
-      <StatusBar barStyle={theme.STATUS_BAR} />
+      <StatusBar
+        barStyle={theme.STATUS_BAR}
+        backgroundColor={theme.COLOR_STATUS_BAR}
+      />
       <Container>
         <ContainerHeader>
           <Texto>Hey, what´s up?!</Texto>
